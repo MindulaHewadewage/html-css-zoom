@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+/* HEADER */
+
+header{
+    height: 80px;
+   
+}
+
+
+
+/* MAIN */
+main{
+    background-color: red;
+    height:calc(100vh - 160px);
+    overflow-y: auto;
+    
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+}
+
+.row{
+    flex-basis: calc(100% / 7);
+    height: 100px;
+   
+}
+
+.col{
+    border: 1px dashed black;
+    height: 100px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: green;
+    height: 80px;
+}
