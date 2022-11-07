@@ -4,15 +4,44 @@
     box-sizing: border-box;
 }
 
+
+
+
+/* GENERICS */
+
 body{
     background-color: blue;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px -3px;
+
+   
+   
+}
+
+.col{
+    min-height: 100px;
+}
+
+.image{
+    max-height: 115px;
+    width: 200px;
+    padding: 5px 3px;
+    background-position: center;
+
+
+    
+  
+}
+
 
 /* HEADER */
 
 header{
     height: 80px;
-   
 }
 
 
@@ -22,6 +51,7 @@ main{
     background-color: red;
     height:calc(100vh - 160px);
     overflow-y: auto;
+    display: flex;
     
 }
 
@@ -29,19 +59,10 @@ main{
     max-width: 1400px;
     margin: auto;
     background-color: white;
-    height: 100%;
+    
 }
 
-.row{
-    flex-basis: calc(100% / 7);
-    height: 100px;
-   
-}
 
-.col{
-    border: 1px dashed black;
-    height: 100px;
-}
 
 
 
@@ -49,5 +70,5 @@ main{
 
 footer{
     background-color: green;
-    height: 80px;
+    min-height: 80px;
 }
