@@ -13,30 +13,21 @@ body{
     background-color: blue;
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -5px -3px;
-
-   
-   
-}
-
 .col{
-    min-height: 100px;
+
+    display: flex;
+    
 }
 
 .image{
-    max-height: 115px;
-    width: 200px;
-    padding: 5px 3px;
-    background-position: center;
-
-
+    position: relative;
+    max-height: 100%;
     
-  
 }
 
+img{
+    display: flex;
+}
 
 /* HEADER */
 
@@ -59,9 +50,15 @@ main{
     max-width: 1400px;
     margin: auto;
     background-color: white;
-    
 }
 
+.name{
+    bottom: 0;
+    left:0;
+    position: absolute;
+    background-color: blue;
+    
+}
 
 
 
